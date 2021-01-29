@@ -24,6 +24,7 @@ tags: [FrontEnd]
 
 - 자주 쓰이는 function
   - setInterval(함수, 시간) : 입력한 시간마다 함수 실행
+  - 이벤트.preventDefault() : 이벤트의 Default를 막는다.
 - querySelector
   - css와 같은 방식으로 Element들 DOM에서 가져올 수 있음.
   - 자식 Element를 가져옴.
