@@ -25,10 +25,14 @@ tags: [FrontEnd]
 - 자주 쓰이는 function
   - setInterval(함수, 시간) : 입력한 시간마다 함수 실행
   - 이벤트.preventDefault() : 이벤트의 Default를 막는다.
-- querySelector
-  - css와 같은 방식으로 Element들 DOM에서 가져올 수 있음.
-  - 자식 Element를 가져옴.
-  - querySelector는 첫번째 것을 가져오고, querySelectorAll은 모든 것을 가져옴(list로 받아야함)
-  - ex)  
-    const form = document.querySelector(".js-form"),  
-    input = form.querySelector("input");
+  - querySelector
+    - css와 같은 방식으로 Element들 DOM에서 가져올 수 있음.
+    - 자식 Element를 가져옴.
+    - querySelector는 첫번째 것을 가져오고, querySelectorAll은 모든 것을 가져옴(list로 받아야함)
+    - ex)  
+      const form = document.querySelector(".js-form"),  
+      input = form.querySelector("input");
+  - createElement : 자바스크립트에서 새로운 element를 생성.
+    - ex) document.createElement("li");
+  - appentChild : 자식element를 생성
+    - ex) li.appendChild(delBtn); //delBtn을 li의 자식엘리먼트로 넣음.
