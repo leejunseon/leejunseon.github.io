@@ -71,3 +71,9 @@ tags: [FrontEnd]
           const cleanToDos = toDos.filter(function(toDo){
             return toDo.id !== parseInt(li.id);
           });
+
+- npm으로 express 설치
+  1. (프로젝트 폴더에서) npm init
+     -> package.json 생성
+  2. (package.json이 있는 폴더에서) npm install express
+     -> package-lock.json, node_modules폴더 생성
